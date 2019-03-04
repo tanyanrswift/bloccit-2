@@ -4,14 +4,18 @@
   "description": "A Reddit-like application for users to discuss and share content",
   "main": "\u001b[D\u001bsrc/server.js)",
   "scripts": {
-    "test": "export NODE_ENV=test&& jasmine",
+    "test": "set NODE_ENV=test&& jasmine",
     "start": "node src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^5.0.0",
-    "express": "^4.16.2"
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.32.6"
   },
   "devDependencies": {
     "jasmine": "^3.0.0",
